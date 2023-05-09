@@ -1,0 +1,203 @@
+.header{
+    display: flex;
+    height: 55px;
+    padding-top: 5px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.left-section{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 95px;
+    height: 24px;
+    cursor: pointer;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    
+    padding: 5px;
+}
+.hamburger-menu:hover{
+    background-color: rgb(210, 210, 210);
+}
+.middle-section{
+    flex: 1;
+    /* background-color: lightpink; */
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.search{
+    width: 500px;
+    padding-left: 20px;
+    height: 40px;
+    margin-left: 190px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.search::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 18px;
+}
+.search-btn{
+    width: 65px;
+    height: 42px;
+    background-color: rgb(240, 240, 240);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+}
+.search-btn .tooltip{
+    color: white;
+    position: absolute;
+    background-color: rgb(97, 97, 97);
+    font-size: 12px;
+    bottom: -50px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.search-btn:hover .tooltip{
+    opacity: 1;
+}
+.search-btn:hover{
+    background-color: rgb(210, 210, 210);
+}
+.search-logo{
+    height: 25px;
+    margin-top: 2px;
+}
+.btn-mic{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+    position: relative;
+}
+.btn-mic .tooltip{
+    color: white;
+    position: absolute;
+    background-color: rgb(97, 97, 97);
+    font-size: 12px;
+    width: 160px;
+    bottom: -50px;
+    padding: 8px 2px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.btn-mic:hover .tooltip{
+    opacity: 1;
+} 
+.btn-mic:hover{
+    background-color: rgb(210, 210, 210);
+}
+.mic-logo{
+    height: 28px;
+}
+.right-section{
+    width: 190px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.upload{
+    width: 30px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 4px;
+    position: relative;
+}
+.upload .tooltip{
+    color: white;
+    position: absolute;
+    background-color: rgb(97, 97, 97);
+    font-size: 12px;
+    bottom: -55px;
+    right: 2px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.upload:hover .tooltip{
+    opacity: 1;
+}
+.upload:hover{
+    background-color: rgb(210, 210, 210);
+}
+.video-upload{
+    width: 26px;
+    cursor: pointer;
+}
+.notification{
+    width: 30px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-top: 4px;
+    position: relative;
+}
+.notification .tooltip{
+    color: white;
+    position: absolute;
+    background-color: rgb(97, 97, 97);
+    font-size: 12px;
+    bottom: -55px;
+    right: 2px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.notification:hover .tooltip {
+    opacity: 1;
+}
+.notification-count{
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    background-color: #c00;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-family: Roboto Arial;
+}
+.notification:hover{
+    background-color: rgb(210, 210, 210);
+}
+.notification-icon{
+    width: 26px;
+    cursor: pointer;
+}
+.profile-picture{
+    width: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
